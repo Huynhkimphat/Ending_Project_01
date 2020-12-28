@@ -72,6 +72,12 @@
     <Compile Include="fHKP.Designer.cs">
       <DependentUpon>fHKP.cs</DependentUpon>
     </Compile>
+    <Compile Include="fLTQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLTQ.Designer.cs">
+      <DependentUpon>fLTQ.cs</DependentUpon>
+    </Compile>
     <Compile Include="fMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     <Compile Include="Translator.cs" />
     <EmbeddedResource Include="fHKP.resx">
       <DependentUpon>fHKP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLTQ.resx">
+      <DependentUpon>fLTQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fMain.resx">
       <DependentUpon>fMain.cs</DependentUpon>
