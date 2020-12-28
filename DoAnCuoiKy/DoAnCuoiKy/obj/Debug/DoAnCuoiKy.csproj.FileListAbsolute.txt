@@ -1,0 +1,30 @@
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.csprojAssemblyReference.cache
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\Interop.NHMTTSENGLib.dll
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.csproj.ResolveComReference.cache
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.fMain.resources
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.fOxfordWords.resources
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.fTranslate.resources
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\English___Vietnamese_Dictionary.Properties.Resources.resources
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.csproj.GenerateResource.cache
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\English - Vietnamese Dictionary.exe
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\obj\Debug\English - Vietnamese Dictionary.pdb
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\bin\Debug\English - Vietnamese Dictionary.exe.config
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\bin\Debug\English - Vietnamese Dictionary.exe
+C:\Users\USER\Downloads\English - Vietnamese Dictionary\English - Vietnamese Dictionary\bin\Debug\English - Vietnamese Dictionary.pdb
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csprojAssemblyReference.cache
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\Interop.NHMTTSENGLib.dll
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.ResolveComReference.cache
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.fMain.resources
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.fOxfordWords.resources
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.fTranslate.resources
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.GenerateResource.cache
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Intro.resources
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe.config
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.pdb
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Properties.Resources.resources
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.exe
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
+C:\HKP\CODE\C#\VS\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.fHKP.resources

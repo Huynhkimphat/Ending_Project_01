@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D48E29BD-919F-4B3A-B71C-69B26DFEE564}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoAnCuoiKy</RootNamespace>
+    <AssemblyName>DoAnCuoiKy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SpeechLib, Version=5.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.SpeechLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fHKP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fHKP.Designer.cs">
+      <DependentUpon>fHKP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOxfordWords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOxfordWords.Designer.cs">
+      <DependentUpon>fOxfordWords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTranslate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTranslate.Designer.cs">
+      <DependentUpon>fTranslate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro.Designer.cs">
+      <DependentUpon>Intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Translator.cs" />
+    <EmbeddedResource Include="fHKP.resx">
+      <DependentUpon>fHKP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOxfordWords.resx">
+      <DependentUpon>fOxfordWords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTranslate.resx">
+      <DependentUpon>fTranslate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro.resx">
+      <DependentUpon>Intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="NHMTTSENGLib">
+      <Guid>{56AF97FC-EFF1-4E2D-BBE3-8CF838EBA8F0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-5-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ava.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-7-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-8-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom-2-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom-2-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-7-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-8-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-5-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-3-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github-9-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-5-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-mark-3-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-8-322.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\literature-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-3-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-window-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-3-161.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-window-161.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-3-162.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio-add-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-translate-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-3-163.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-window-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-translate-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-window-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate-clockwise-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard-321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard-322.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
