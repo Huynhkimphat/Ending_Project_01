@@ -126,6 +126,7 @@
 			this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.button4.UseVisualStyleBackColor = true;
+			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// button3
 			// 
@@ -157,6 +158,7 @@
 			this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
 			// 
 			// button1
 			// 
@@ -172,6 +174,7 @@
 			this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// btnAbout
 			// 
@@ -187,6 +190,7 @@
 			this.btnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.btnAbout.UseVisualStyleBackColor = true;
+			this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
 			// 
 			// fHKP
 			// 

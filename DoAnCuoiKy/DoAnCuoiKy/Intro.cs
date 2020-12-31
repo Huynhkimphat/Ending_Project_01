@@ -30,16 +30,23 @@ namespace DoAnCuoiKy
 		}
 		private void btnLTQ_Click(object sender, EventArgs e)
 		{
-
+			fLTQ f = new fLTQ();
+			this.Hide();
+			f.ShowDialog();
+			this.Show();
 		}
 
 		private void btnPLXT_Click(object sender, EventArgs e)
 		{
-
+			fPLXT f = new fPLXT();
+			this.Hide();
+			f.ShowDialog();
+			this.Show();
 		}
 
 		private void btnSchool_Click(object sender, EventArgs e)
 		{
+			System.Diagnostics.Process.Start("https://www.uit.edu.vn/");
 
 		}
 		private void btnDic_Click(object sender, EventArgs e)
@@ -84,6 +91,22 @@ namespace DoAnCuoiKy
 			btnPLXT.Visible = true;
 		}
 
+		private void btnAbout_Click(object sender, EventArgs e)
+		{
+			fAbout f = new fAbout();
+			this.Hide();
+			f.ShowDialog();
+			this.Show();
+		}
 
+		private void btnClass_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void btnTeacher_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

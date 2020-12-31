@@ -73,6 +73,16 @@ namespace DoAnCuoiKy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap about_321 {
+            get {
+                object obj = ResourceManager.GetObject("about-321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap audio_add_32 {
             get {
                 object obj = ResourceManager.GetObject("audio-add-32", resourceCulture);
@@ -143,9 +153,59 @@ namespace DoAnCuoiKy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap facebook_3_641 {
+            get {
+                object obj = ResourceManager.GetObject("facebook-3-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebook_3_642 {
+            get {
+                object obj = ResourceManager.GetObject("facebook-3-642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap github_9_64 {
             get {
                 object obj = ResourceManager.GetObject("github-9-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap github_9_641 {
+            get {
+                object obj = ResourceManager.GetObject("github-9-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap github_9_642 {
+            get {
+                object obj = ResourceManager.GetObject("github-9-642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap github_9_643 {
+            get {
+                object obj = ResourceManager.GetObject("github-9-643", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +246,26 @@ namespace DoAnCuoiKy.Properties {
         internal static System.Drawing.Bitmap instagram_5_64 {
             get {
                 object obj = ResourceManager.GetObject("instagram-5-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap instagram_5_641 {
+            get {
+                object obj = ResourceManager.GetObject("instagram-5-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap instagram_5_642 {
+            get {
+                object obj = ResourceManager.GetObject("instagram-5-642", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +403,26 @@ namespace DoAnCuoiKy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_7_321 {
+            get {
+                object obj = ResourceManager.GetObject("user-7-321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_7_322 {
+            get {
+                object obj = ResourceManager.GetObject("user-7-322", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_8_32 {
             get {
                 object obj = ResourceManager.GetObject("user-8-32", resourceCulture);
@@ -346,6 +446,36 @@ namespace DoAnCuoiKy.Properties {
         internal static System.Drawing.Bitmap x_mark_3_32 {
             get {
                 object obj = ResourceManager.GetObject("x-mark-3-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_mark_3_321 {
+            get {
+                object obj = ResourceManager.GetObject("x-mark-3-321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_mark_3_322 {
+            get {
+                object obj = ResourceManager.GetObject("x-mark-3-322", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_mark_3_323 {
+            get {
+                object obj = ResourceManager.GetObject("x-mark-3-323", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

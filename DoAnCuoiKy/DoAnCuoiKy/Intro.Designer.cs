@@ -81,8 +81,8 @@
 			this.btnSentence.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnSentence.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnSentence.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnSentence.Font = new System.Drawing.Font("Segoe Script", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnSentence.Image = global::DoAnCuoiKy.Properties.Resources.user_8_32;
+			this.btnSentence.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSentence.Image = global::DoAnCuoiKy.Properties.Resources.literature_32;
 			this.btnSentence.Location = new System.Drawing.Point(553, 208);
 			this.btnSentence.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.btnSentence.Name = "btnSentence";
@@ -100,8 +100,8 @@
 			this.btnOxford.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnOxford.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnOxford.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnOxford.Font = new System.Drawing.Font("Segoe Script", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOxford.Image = global::DoAnCuoiKy.Properties.Resources.user_7_32;
+			this.btnOxford.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnOxford.Image = global::DoAnCuoiKy.Properties.Resources.literature_32;
 			this.btnOxford.Location = new System.Drawing.Point(306, 208);
 			this.btnOxford.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.btnOxford.Name = "btnOxford";
@@ -119,7 +119,7 @@
 			this.btnDic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnDic.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnDic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnDic.Font = new System.Drawing.Font("Segoe Script", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDic.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDic.Image = global::DoAnCuoiKy.Properties.Resources.literature_32;
 			this.btnDic.Location = new System.Drawing.Point(40, 208);
 			this.btnDic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -174,7 +174,7 @@
 			this.btnTeacher.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnTeacher.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnTeacher.Font = new System.Drawing.Font("Segoe Script", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnTeacher.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnTeacher.Image = global::DoAnCuoiKy.Properties.Resources.teacher_32;
 			this.btnTeacher.Location = new System.Drawing.Point(449, 412);
 			this.btnTeacher.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -185,6 +185,7 @@
 			this.btnTeacher.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.btnTeacher.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.btnTeacher.UseVisualStyleBackColor = true;
+			this.btnTeacher.Click += new System.EventHandler(this.btnTeacher_Click);
 			// 
 			// btnPLXT
 			// 
@@ -209,23 +210,25 @@
 			this.btnClass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnClass.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnClass.Font = new System.Drawing.Font("Segoe Script", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnClass.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnClass.Image = global::DoAnCuoiKy.Properties.Resources.classroom_2_32;
 			this.btnClass.Location = new System.Drawing.Point(144, 412);
 			this.btnClass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.btnClass.Name = "btnClass";
-			this.btnClass.Size = new System.Drawing.Size(170, 179);
+			this.btnClass.Size = new System.Drawing.Size(184, 179);
 			this.btnClass.TabIndex = 7;
 			this.btnClass.Text = "CS511.Ngôn Ngữ Lập Trình C#";
 			this.btnClass.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.btnClass.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.btnClass.UseVisualStyleBackColor = true;
+			this.btnClass.Click += new System.EventHandler(this.btnClass_Click);
 			// 
 			// btnSchool
 			// 
 			this.btnSchool.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.btnSchool.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
 			this.btnSchool.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnSchool.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSchool.Image = global::DoAnCuoiKy.Properties.Resources.school_32;
 			this.btnSchool.Location = new System.Drawing.Point(240, 4);
 			this.btnSchool.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -253,6 +256,7 @@
 			this.btnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.btnAbout.UseVisualStyleBackColor = true;
+			this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
 			// 
 			// btnProject
 			// 

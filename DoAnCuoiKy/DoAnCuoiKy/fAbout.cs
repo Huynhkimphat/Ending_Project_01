@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-	public partial class fHKP : Form
+	public partial class fAbout : Form
 	{
-		public fHKP()
+		public fAbout()
 		{
 			InitializeComponent();
 		}
@@ -26,19 +26,9 @@ namespace DoAnCuoiKy
 			this.Close();
 		}
 
-		private void btnAbout_Click(object sender, EventArgs e)
-		{
-			System.Diagnostics.Process.Start("https://www.facebook.com/huynhkimphat2708");
-		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			System.Diagnostics.Process.Start("https://www.instagram.com/hkimphat2012/");
-		}
-
 		private void button2_Click(object sender, EventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://github.com/Huynhkimphat");
+			System.Diagnostics.Process.Start("https://github.com/orgs/UIT-PowerRangerS/dashboard");
 		}
 	}
 }

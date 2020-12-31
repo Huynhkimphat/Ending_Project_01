@@ -254,9 +254,9 @@ namespace DoAnCuoiKy
 			// 
 			this.pictureBox5.BackColor = System.Drawing.Color.White;
 			this.pictureBox5.Image = global::DoAnCuoiKy.Properties.Resources.google_translate_32;
-			this.pictureBox5.Location = new System.Drawing.Point(335, -1);
+			this.pictureBox5.Location = new System.Drawing.Point(337, 4);
 			this.pictureBox5.Name = "pictureBox5";
-			this.pictureBox5.Size = new System.Drawing.Size(39, 26);
+			this.pictureBox5.Size = new System.Drawing.Size(34, 21);
 			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox5.TabIndex = 24;
 			this.pictureBox5.TabStop = false;
@@ -266,9 +266,9 @@ namespace DoAnCuoiKy
 			// 
 			this.pictureBox4.BackColor = System.Drawing.Color.White;
 			this.pictureBox4.Image = global::DoAnCuoiKy.Properties.Resources.keyboard_32;
-			this.pictureBox4.Location = new System.Drawing.Point(277, -1);
+			this.pictureBox4.Location = new System.Drawing.Point(282, 4);
 			this.pictureBox4.Name = "pictureBox4";
-			this.pictureBox4.Size = new System.Drawing.Size(39, 26);
+			this.pictureBox4.Size = new System.Drawing.Size(34, 21);
 			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox4.TabIndex = 23;
 			this.pictureBox4.TabStop = false;
